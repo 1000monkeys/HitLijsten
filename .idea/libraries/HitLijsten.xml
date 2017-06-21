@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="HitLijsten">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/HitLijsten/JavaFXGridWithAutoResizingGridItems.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/HitLijsten/commons-pool2-2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/HitLijsten/commons-dbcp2-2.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/HitLijsten/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/HitLijsten/mysql-connector-java-5.1.41-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
