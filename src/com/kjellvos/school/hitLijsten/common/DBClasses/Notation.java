@@ -8,12 +8,12 @@ import javafx.beans.property.StringProperty;
 /**
  * Created by kjell on 19-6-2017.
  */
-public class Notering {
+public class Notation {
     private IntegerProperty year, week, singleId, artiestId, positie;
     private StringProperty artiestNaam, singleNaam;
 
 
-    public Notering(int positie, int singleId, int artiestId, int year, int week, String titel, String artiest) {
+    public Notation(int positie, int singleId, int artiestId, int year, int week, String titel, String artiest) {
         this.positie = new SimpleIntegerProperty(positie);
         this.singleId = new SimpleIntegerProperty(singleId);
         this.artiestId = new SimpleIntegerProperty(artiestId);

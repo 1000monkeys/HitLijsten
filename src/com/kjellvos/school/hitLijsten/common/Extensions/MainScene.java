@@ -31,7 +31,6 @@ public class MainScene implements SceneChanger {
             scene.reload();
             stage.setScene(scene.getScene());
         }
-        System.out.println(scenes.size());
     }
 
     public SceneImplementation getCurrentScene() {

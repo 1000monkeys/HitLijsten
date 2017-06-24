@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd5bdda0-99e6-4a4e-8095-0d73ae439b50" name="Default" comment="" />
+    <list default="true" id="cd5bdda0-99e6-4a4e-8095-0d73ae439b50" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/ArtistSearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/NothingSelected.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/TitelSearch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/WrongInput.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/YearWeekEditionSelection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Notations.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/Artiesten.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/Singles.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/Top40.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/common/DBClasses/Notering.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Artiesten.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Singles.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Top40.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/DBClasses/Notering.java" afterPath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/DBClasses/Notation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/JavaFXGridWithAutoResizingGridItems.jar" afterPath="$PROJECT_DIR$/lib/JavaFXGridWithAutoResizingGridItems.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HitLijsten/JavaFXGridWithAutoResizingGridItems.jar" afterPath="$PROJECT_DIR$/out/production/HitLijsten/JavaFXGridWithAutoResizingGridItems.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/Main.class" afterPath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/MainMenu.class" afterPath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/MainMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/common/Database.class" afterPath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/common/Database.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/common/Extensions/MainScene.class" afterPath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/common/Extensions/MainScene.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/common/interfaces/SceneImplementation.class" afterPath="$PROJECT_DIR$/out/production/HitLijsten/com/kjellvos/school/hitLijsten/common/interfaces/SceneImplementation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Main.java" afterPath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/MainMenu.java" afterPath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/MainMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Database.java" afterPath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Database.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/MainScene.java" afterPath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/MainScene.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/interfaces/SceneImplementation.java" afterPath="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/interfaces/SceneImplementation.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,12 +41,46 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Artiesten.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Artiesten.java">
+      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-368">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="189">
+              <caret line="130" column="70" lean-forward="false" selection-start-line="130" selection-start-column="70" selection-end-line="130" selection-end-column="70" />
+              <folding>
+                <element signature="e#6894#6895#0" expanded="true" />
+                <element signature="e#6921#6922#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NothingSelected.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/NothingSelected.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="19" column="158" lean-forward="false" selection-start-line="19" selection-start-column="158" selection-end-line="19" selection-end-column="158" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Notations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Notations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+              <folding>
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#2411#2412#0" expanded="true" />
+                <element signature="e#2443#2444#0" expanded="true" />
+                <element signature="e#2647#2648#0" expanded="true" />
+                <element signature="e#2731#2732#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,48 +88,120 @@
       <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Database.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="1854">
+              <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding>
-                <marker date="1498051700490" expanded="true" signature="1524:2270" ph="SELECT hitli... hitlijst_notering" />
-                <marker date="1498051700490" expanded="true" signature="3245:3861" ph="SELECT hitli... hitlijst_notering" />
-                <marker date="1498051700490" expanded="true" signature="4939:5555" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="1424:2170" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="3157:3738" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="3157:4007" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="5064:5612" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="5064:5613" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="6675:6733" ph="SELECT MAX(p... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="7015:7205" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="7015:7296" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="7015:7372" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="7015:7373" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="7015:7487" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="7015:7488" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="7015:7579" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="7015:7580" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="7015:7628" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="7015:7653" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="7015:7654" ph="SELECT hitli... hitlijst_notering" />
+                <marker date="1498304142684" expanded="true" signature="7015:7761" ph="SELECT hitli... hitlijst_notering" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseExt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/DatabaseExt.java">
+      <file leaf-file-name="TitelSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/TitelSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="-231">
+              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArtistSearch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/ArtistSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="52" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YearWeekEditionSelection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/YearWeekEditionSelection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="62" column="61" lean-forward="false" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WrongInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/WrongInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="20" column="158" lean-forward="false" selection-start-line="20" selection-start-column="158" selection-end-line="20" selection-end-column="158" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/MainMenu.java">
+      <file leaf-file-name="Notation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/DBClasses/Notation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="61" column="11" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Singles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="140">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>system</find>
+      <find>artiestenSearc</find>
+      <find>highestNot</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -78,6 +212,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/DatabaseExt.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/MainScene.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Singles.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Artiesten.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/artiestenSearch.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Top40.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/SinglesArtist.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/interfaces/SceneImplementation.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Notations.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Database.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/ArtistSearch.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/TitelSearch.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/YearWeekEditionSelection.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/NothingSelected.java" />
+        <option value="$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/WrongInput.java" />
       </list>
     </option>
   </component>
@@ -88,8 +238,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="27" />
     <option name="width" value="1920" />
-    <option name="height" value="1044" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -106,7 +257,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -155,7 +307,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Dialogs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HitLijsten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HitLijsten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hitLijsten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HitLijsten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HitLijsten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hitLijsten" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interfaces" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -227,14 +427,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -677,32 +881,42 @@
       <updated>1498052352194</updated>
       <workItem from="1498052355556" duration="904000" />
       <workItem from="1498062424062" duration="999000" />
+      <workItem from="1498123803028" duration="608000" />
+      <workItem from="1498127820794" duration="978000" />
+      <workItem from="1498162977670" duration="1208000" />
+      <workItem from="1498215282514" duration="12000" />
+      <workItem from="1498215646254" duration="22000" />
+      <workItem from="1498218781868" duration="10000" />
+      <workItem from="1498247397950" duration="3794000" />
+      <workItem from="1498294923622" duration="10456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1903000" />
+    <option name="totallyTimeSpent" value="18991000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35187167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.134375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -713,9 +927,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -733,6 +945,251 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/DatabaseExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <element signature="e#6894#6895#0" expanded="true" />
+            <element signature="e#6921#6922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Notations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Artiesten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <marker date="1498304142684" expanded="true" signature="1424:2170" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:3738" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:4007" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5612" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5613" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="6675:6733" ph="SELECT MAX(p... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7205" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7296" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7372" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7373" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7487" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7488" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7579" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7580" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7628" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7653" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7654" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7761" ph="SELECT hitli... hitlijst_notering" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/DatabaseExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <element signature="e#6894#6895#0" expanded="true" />
+            <element signature="e#6921#6922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Notations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Artiesten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <marker date="1498304142684" expanded="true" signature="1424:2170" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:3738" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:4007" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5612" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5613" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="6675:6733" ph="SELECT MAX(p... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7205" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7296" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7372" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7373" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7487" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7488" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7579" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7580" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7628" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7653" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7654" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7761" ph="SELECT hitli... hitlijst_notering" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/DatabaseExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <element signature="e#6894#6895#0" expanded="true" />
+            <element signature="e#6921#6922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Notations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Artiesten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <marker date="1498304142684" expanded="true" signature="1424:2170" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:3738" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:4007" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5612" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5613" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="6675:6733" ph="SELECT MAX(p... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7205" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7296" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7372" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7373" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7487" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7488" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7579" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7580" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7628" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7653" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7654" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7761" ph="SELECT hitli... hitlijst_notering" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/DatabaseExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <element signature="e#6894#6895#0" expanded="true" />
+            <element signature="e#6921#6922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Notations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Artiesten.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -746,9 +1203,24 @@
         <state relative-caret-position="112">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <marker date="1498051700490" expanded="true" signature="1524:2270" ph="SELECT hitli... hitlijst_notering" />
-            <marker date="1498051700490" expanded="true" signature="3245:3861" ph="SELECT hitli... hitlijst_notering" />
-            <marker date="1498051700490" expanded="true" signature="4939:5555" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="1424:2170" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:3738" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:4007" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5612" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5613" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="6675:6733" ph="SELECT MAX(p... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7205" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7296" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7372" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7373" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7487" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7488" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7579" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7580" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7628" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7653" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7654" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7761" ph="SELECT hitli... hitlijst_notering" />
           </folding>
         </state>
       </provider>
@@ -761,18 +1233,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/DatabaseExt.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Notations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="112">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Singles.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="720">
+          <caret line="61" column="11" lean-forward="false" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <element signature="e#6894#6895#0" expanded="true" />
+            <element signature="e#6921#6922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Artiesten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -782,25 +1265,267 @@
         <state relative-caret-position="112">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <marker date="1498051700490" expanded="true" signature="1524:2270" ph="SELECT hitli... hitlijst_notering" />
-            <marker date="1498051700490" expanded="true" signature="3245:3861" ph="SELECT hitli... hitlijst_notering" />
-            <marker date="1498051700490" expanded="true" signature="4939:5555" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="1424:2170" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:3738" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:4007" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5612" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5613" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="6675:6733" ph="SELECT MAX(p... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7205" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7296" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7372" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7373" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7487" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7488" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7579" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7580" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7628" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7653" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7654" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7761" ph="SELECT hitli... hitlijst_notering" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Artiesten.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/DatabaseExt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="192">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Notations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
+        <state relative-caret-position="720">
           <caret line="61" column="11" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <element signature="e#6894#6895#0" expanded="true" />
+            <element signature="e#6921#6922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Artiesten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <marker date="1498304142684" expanded="true" signature="1424:2170" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:3738" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:4007" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5612" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5613" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="6675:6733" ph="SELECT MAX(p... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7205" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7296" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7372" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7373" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7487" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7488" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7579" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7580" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7628" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7653" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7654" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7761" ph="SELECT hitli... hitlijst_notering" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/DatabaseExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/DatabaseExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Extensions/MainScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Artiesten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="20" column="117" lean-forward="false" selection-start-line="20" selection-start-column="117" selection-end-line="20" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/default/javafx-src.zip!/javafx/scene/control/Label.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="71" column="11" lean-forward="false" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/interfaces/SceneImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Top40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1854">
+          <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding>
+            <marker date="1498304142684" expanded="true" signature="1424:2170" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:3738" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="3157:4007" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5612" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="5064:5613" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="6675:6733" ph="SELECT MAX(p... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7205" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7296" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7372" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7373" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7487" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7488" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7579" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7580" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7628" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7653" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7654" ph="SELECT hitli... hitlijst_notering" />
+            <marker date="1498304142684" expanded="true" signature="7015:7761" ph="SELECT hitli... hitlijst_notering" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/TitelSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Notations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2443#2444#0" expanded="true" />
+            <element signature="e#2647#2648#0" expanded="true" />
+            <element signature="e#2731#2732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/ArtistSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/YearWeekEditionSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="62" column="61" lean-forward="false" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="130" column="70" lean-forward="false" selection-start-line="130" selection-start-column="70" selection-end-line="130" selection-end-column="70" />
+          <folding>
+            <element signature="e#6894#6895#0" expanded="true" />
+            <element signature="e#6921#6922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/NothingSelected.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="19" column="158" lean-forward="false" selection-start-line="19" selection-start-column="158" selection-end-line="19" selection-end-column="158" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/Dialogs/WrongInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="20" column="158" lean-forward="false" selection-start-line="20" selection-start-column="158" selection-end-line="20" selection-end-column="158" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kjellvos/school/hitLijsten/common/DBClasses/Notation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
