@@ -1,10 +1,8 @@
 package com.kjellvos.school.hitLijsten.Dialogs;
 
 import com.kjellvos.school.hitLijsten.MainMenu;
-import javafx.scene.control.ButtonBar;
-import javafx.scene.control.ButtonType;
-import javafx.scene.control.Dialog;
-import javafx.scene.control.TextField;
+import javafx.collections.FXCollections;
+import javafx.scene.control.*;
 import javafx.scene.layout.GridPane;
 import javafx.util.Pair;
 
@@ -16,7 +14,8 @@ public class YearWeekEditionSelection {
 
     private Dialog<Pair<String, String>> dialog;
     private final boolean[] yes = {false};
-    private TextField jaarTextField, weekTextField, editieTextField;
+    private TextField jaarTextField, weekTextField;
+    private ChoiceBox editieChoiceBox;
 
     public YearWeekEditionSelection(MainMenu mainMenu){
         this.mainMenu = mainMenu;
@@ -24,9 +23,9 @@ public class YearWeekEditionSelection {
 
         jaarTextField = new TextField();
         weekTextField = new TextField();
-        editieTextField = new TextField();
+        editieChoiceBox= new ChoiceBox(FXCollections.observableArrayList("Top 40", "Tipparade"));
 
-        ButtonType OkButtonType = new ButtonType("Ingevoerd!", ButtonBar.ButtonData.OK_DONE);
+        ButtonType OkButtonType = new ButtonType("Invoeren!", ButtonBar.ButtonData.OK_DONE);
         dialog.getDialogPane().getButtonTypes().addAll(OkButtonType, ButtonType.CANCEL);
 
         GridPane gridPane = new GridPane();
@@ -39,7 +38,7 @@ public class YearWeekEditionSelection {
         gridPane.add(new javafx.scene.control.Label("Week:"), 0, 1, 1, 1);
         gridPane.add(weekTextField, 1, 1, 1, 1);
         gridPane.add(new javafx.scene.control.Label("Editie:"), 0, 2, 1, 1);
-        gridPane.add(editieTextField, 1, 2, 1, 1);
+        gridPane.add(editieChoiceBox, 1, 2, 1, 1);
 
         dialog.setResultConverter(dialogButton -> {
             if (dialogButton == OkButtonType) {
@@ -56,13 +55,18 @@ public class YearWeekEditionSelection {
         if (yes[0]) {
             int year = Integer.parseInt(jaarTextField.getText());
             int week = Integer.parseInt(weekTextField.getText());
-            int edition = Integer.parseInt(editieTextField.getText());
+            int edition = editieChoiceBox.getSelectionModel().getSelectedIndex();
             if (year < 2016 && year > 1964) {
                 if (week < 54 && week > 0) {
                     if (edition == 1 || edition == 2) {
-                        mainMenu.setTop40(week, year, edition);
+                        if (mainMenu.getDatabase().validWeekYearEdition(week, year, edition)) {
+                            mainMenu.setTop40(week, year, edition);
+                        }else{
+                            WrongInput wrongInput = new WrongInput("Ongeldige input! Er is voor deze datum en editie geen lijst te vinden!");
+                            wrongInput.showDialog();
+                        }
                     }else{
-                        WrongInput wrongInput = new WrongInput("Verkeerde input voor editie! Gebruik waarde tussen de 0 en 3!");
+                        WrongInput wrongInput = new WrongInput("Verkeerde input voor editie! Selecteer 1 van de 2 opties!");
                         wrongInput.showDialog();
                     }
                 }else{

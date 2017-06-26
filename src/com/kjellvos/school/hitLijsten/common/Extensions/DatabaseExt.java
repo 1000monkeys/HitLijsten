@@ -15,7 +15,6 @@ public class DatabaseExt {
     private Connection connection;
     private PreparedStatement preparedStatement;
 
-
     public DatabaseExt() throws SQLException{
         System.setProperty(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.fscontext.RefFSContextFactory");
         System.setProperty(Context.PROVIDER_URL, "file:///tmp");

@@ -177,4 +177,28 @@ public class Database extends DatabaseExt {
         }
         return data;
     }
+
+    public boolean validWeekYearEdition(int week, int year, int edition) {
+        try{
+            setConnection(getBasicDataSource().getConnection());
+
+            String sql =    "SELECT hitlijst_notering.positie, single.id AS singleID, single.titel, artiest.id AS artiestID, artiest.naam AS artiestNaam, hitlijst_editie.jaar, hitlijst_editie.week FROM hitlijst_notering \n" +
+                            "LEFT JOIN hitlijst_editie ON hitlijst_editie.id = hitlijst_notering.hitlijst_editie \n" +
+                            "LEFT JOIN single ON hitlijst_notering.single = single.id \n" +
+                            "LEFT JOIN artiest ON single.artiest = artiest.id \n" +
+                            "LEFT JOIN hitlijst ON hitlijst_editie.hitlijst = hitlijst.id \n" +
+                            "WHERE hitlijst_editie.week = " + week + " AND hitlijst_editie.jaar = " + year + " AND hitlijst.id = " + edition + " ORDER BY hitlijst_notering.positie ASC ;";
+
+            setPreparedStatement(getConnection().prepareStatement(sql));
+            ResultSet resultSet = getPreparedStatement().executeQuery();
+            if (!resultSet.next()) {
+                return false;
+            }else{
+                return true;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
 }
