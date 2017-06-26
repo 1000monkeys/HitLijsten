@@ -55,7 +55,7 @@ public class YearWeekEditionSelection {
         if (yes[0]) {
             int year = Integer.parseInt(jaarTextField.getText());
             int week = Integer.parseInt(weekTextField.getText());
-            int edition = editieChoiceBox.getSelectionModel().getSelectedIndex();
+            int edition = editieChoiceBox.getSelectionModel().getSelectedIndex()+1;
             if (year < 2016 && year > 1964) {
                 if (week < 54 && week > 0) {
                     if (edition == 1 || edition == 2) {
